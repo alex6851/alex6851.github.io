@@ -1,11 +1,11 @@
 # Site settings
 author: Alexander Baker
-title: 
+title: Caution Work in Progress
 header-img: img/home-bg.png
 email: alex.baker685@gmail.com
 copyright_name: Alexander Baker
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning to Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  alex6851
