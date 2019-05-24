@@ -215,7 +215,7 @@ However I needed loops and statements to validate all of this user input.
 Here it is:
 
 
-#This "while" loop allowed the user to come back to the beginning.
+This "while" loop allowed the user to come back to the beginning.
 ```
         while @input != "N"
             puts "Type 'genre' to view Restaurants by genre and type 'all' to view all the restaurants!"
