@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Gem Data Project: Yelp Fusion"
-date:       2019-05-24 20:58:57 +0000
+date:       2019-05-24 16:58:58 -0400
 permalink:  cli_gem_data_project_yelp_fusion
 ---
 
@@ -215,13 +215,13 @@ However I needed loops and statements to validate all of this user input.
 Here it is:
 
 
-This "while" loop allowed the user to come back to the beginning.
+#This "while" loop allowed the user to come back to the beginning.
 ```
         while @input != "N"
             puts "Type 'genre' to view Restaurants by genre and type 'all' to view all the restaurants!"
             get_user_input
 ```						
-       The "case" statement is saying when @input == "string" then do stuff.
+       #The "case" statement is saying when @input == "string" then do stuff.
 ``` 
             case @input
 						
@@ -234,12 +234,12 @@ This "while" loop allowed the user to come back to the beginning.
                 puts "Select the number of the Restaurant OR type 'all' OR type 'back' to go back to the top"
                 get_user_input
 ```							
-			    If the user types "all" they can view the details of all the restaurants.
+			    #If the user types "all" they can view the details of all the restaurants.
 ```
                 if @input == "all"
                     select_and_display_all_restaurants_in_category          
 ```									
-			    If the user types "back" then they can go back to the beginning.
+			    #If the user types "back" then they can go back to the beginning.
 ```
                 elsif @input != "back"
                     input_to_index
@@ -248,19 +248,19 @@ This "while" loop allowed the user to come back to the beginning.
                 end 
 ```	
 	
-		  This is the second "when" of my "case" statement.	
+		  #This is the second "when" of my "case" statement.	
 ```
             when "all"
                 list_restaurants
                 puts "Select the number of the Restaurant OR type 'all' OR type 'back' to go back to the top"
                 get_user_input
 ```							
-				Here they can view all restaurants and their details	
+				#Here they can view all restaurants and their details	
 ```
                 if @input == "all"
                     select_and_display_all_restaurants
 ```						
-				Here if they type "back" then they can go back to the top		
+				#Here if they type "back" then they can go back to the top		
 ```
                 elsif @input != "back"   
                     input_to_index 
@@ -269,7 +269,7 @@ This "while" loop allowed the user to come back to the beginning.
                 end
             end
 ```							    
-				Here it allows the user to view another restaurant if they want to. 	
+				#Here it allows the user to view another restaurant if they want to. 	
 
 ```
            if @input != "back"
